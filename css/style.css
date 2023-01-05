@@ -1,0 +1,1778 @@
+/* ======= Common CSS ======= */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+a, a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+ul, ol{
+    list-style-type: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.clr{
+    clear: both;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+  }
+   
+body::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+   
+body::-webkit-scrollbar-thumb {
+    background: linear-gradient(#000, #470ba1, #7723f6, #9844ff, #da36bc, #d72ab7);
+    border-radius: 20px;
+}
+
+/* ======= Common CSS ======= */
+
+
+
+
+
+
+/* PreLoader */
+#preloader {
+	position: fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:rgba(0, 0, 0, 0.7);/* change if the mask should be a color other than white */
+	z-index:9999; /* makes sure it stays on top */
+}
+
+#status {
+	width:300px;
+	height:300px;
+	position:absolute;
+	left:50%; /* centers the loading animation horizontally on the screen */
+	top:50%; /* centers the loading animation vertically on the screen */
+    transform: translate(-50% -50%);
+	background:url(../images/preloader1.gif); /* path to your loading animation */
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:-150px 0 0 -150px; /* is width and height divided by two */
+}
+/* PreLoader */
+
+
+
+
+
+
+
+/* ===== Header Part Starts Here ===== */
+
+.navbar{
+    background: #15003500;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    transition: 1s;
+}
+.active {
+	height: 120px;
+    background: #1500354a;
+    backdrop-filter: blur(5px);
+    transition: 1s;
+}
+
+.nav-item{
+    margin: 0 25px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: #944bff;
+    transition: .4s;
+}
+
+.nav-link:hover{
+    color: #ff39dc;
+}
+.nav-link:active{
+    color: #ff39dc;
+}
+.nav-link:focus{
+    color: #ff39dc;
+}
+.header_buttons{
+    display: flex;
+    flex-direction: row;
+}
+.header_signup_button a{
+    padding: 14px 30px;
+    background: linear-gradient(#9e4efb, #5a0fca);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 4px 5px 2px #5813b8;
+    border-bottom: 6px solid #3a0090;
+    margin-left: 20px;
+}
+.header_login_button a{
+    padding: 14px 30px;
+    background: linear-gradient(#9e4efb, #5a0fca);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 4px 5px 2px #5813b8;
+    border-bottom: 6px solid #3a0090;
+    margin-left: 20px;
+}
+.header_signup_button a:hover, .header_login_button a:hover{
+    background: linear-gradient(#3a0090, #a90287);
+    text-shadow: 4px 5px 2px #a60084;
+    border-bottom: 6px solid #661355;
+}
+
+
+/* ===== Header Part Ended ===== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= Banner Part Starts here ======= */
+
+#homepage_banner{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: #150035;
+    position: relative;
+}
+
+.gamble_spinning_img{
+    position: absolute;
+    top: 200px;
+    left: 185px;
+}
+
+.triple_seven_part h6{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.triple_seven_part h1{
+    font-size: 350px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    margin-top: 30px;
+    color: #fcb100;
+    text-shadow: 0px 0px 300px #fe38da;
+}
+
+.triple_seven_part p{
+    margin-top: 40px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    line-height: 26px;
+    padding: 0 20px;
+}
+
+.banner_button a{
+    padding: 14px 30px;
+    background: linear-gradient(#9e4efb, #5a0fca);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 4px 5px 2px #5813b8;
+    border-bottom: 6px solid #3a0090;
+    margin-top: 30px;
+    /* transition: .5s; */
+}
+.banner_button a:hover{
+    background: linear-gradient(#fe39db, #a90287);
+    text-shadow: 4px 5px 2px #a60084;
+    border-bottom: 6px solid #661355;
+}
+
+/* ============ */
+
+.below_banner_parent{
+    position: relative;
+}
+.below_banner_child{
+    position: absolute;
+    bottom: -135px;
+    left: 12px;
+    width: 100%;
+}
+
+.cards_below_banner{
+    margin: 10px 0;
+    padding: 30px 0 35px 0;
+    background: #6317d1;
+}
+.cards_below_banner h5{
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    line-height: 50px;
+    color: #fcb100;
+    text-shadow: 3px 5px 8px #3a0090;
+}
+.cards_below_banner h4{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    line-height: 50px;
+    padding-top: 25px;
+    color: #fff;
+    text-shadow: 3px 5px 8px #3a0090;
+}
+.cards_below_banner p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 50px;
+    color: #fff;
+}
+
+/* ======= Banner Part Ended ======= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========= Related Games part Starts Here ======== */
+
+#related_games{
+    padding: 180px 0 100px 0;
+    background: #0b001b;
+}
+
+.related_games_heading h3{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    line-height: 50px;
+    color: #fcb100;
+    text-shadow: 0px 0px 200px #fe38da;
+    padding-bottom: 60px;
+}
+
+.related_games_card{
+    position: relative;
+}
+.rg_card_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.rg_card_overlay h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+}
+
+.rg_card_overlay_button a{
+    padding: 14px 30px;
+    background: linear-gradient(#9e4efb, #5a0fca);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 4px 5px 2px #5813b8;
+    border-bottom: 6px solid #3a0090;
+    margin-top: 250px;
+    /* transition: .5s; */
+}
+.rg_card_overlay_button a:hover{
+    background: linear-gradient(#fe39db, #a90287);
+    text-shadow: 4px 5px 2px #a60084;
+    border-bottom: 6px solid #661355;
+}
+
+.related_games_card:hover .rg_card_overlay{
+    visibility: visible;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+/* ========= Related Games Part Ended ======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== Free Spin Offer Part Starts Here ==== */
+
+#free_spin{
+    padding: 100px 0 25px 0;
+    background: #150035;
+}
+
+.free_spin_description{
+    padding: 75px 0;
+}
+
+.free_spin_description h3{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    line-height: 50px;
+    color: #fcb100;
+    text-shadow: 0px 0px 150px #fe38da;
+}
+.free_spin_description p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    line-height: 26px;
+    color: #fff;
+    padding: 60px 0 55px 0;
+}
+
+.free_spin_claiming_button a{
+    padding: 14px 30px;
+    background: linear-gradient(#9e4efb, #5a0fca);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 4px 5px 2px #5813b8;
+    border-bottom: 6px solid #3a0090;
+    /* transition: .5s; */
+}
+.free_spin_claiming_button a:hover{
+    background: linear-gradient(#fe39db, #a90287);
+    text-shadow: 4px 5px 2px #a60084;
+    border-bottom: 6px solid #661355;
+}
+
+/* ==== Free Spin Offer Part Ended ==== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= Pricing Plan Part Starts Here ======= */
+
+#pricing_plan{
+    padding: 100px 0 115px 0;
+    background: #0b001b;
+}
+
+.pricing_plan_card{
+    padding: 60px 0;
+    background: linear-gradient(#9e4dfc, #580ec8);
+    border-radius: 5px;
+    position: relative;
+    transition: .5s;
+}
+
+.package_name{
+    padding: 20px 0;
+    border-bottom: 6px solid #661355;
+    background: linear-gradient(#fe38da, #aa0288);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    visibility: hidden;
+    /* transition: .5s; */
+}
+.package_name h3{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    text-shadow: 2px 4px 2px #5813b8;
+}
+
+.pricing_plan_card h4{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    text-shadow: 5px 5px 2px #5813b8;
+}
+.pricing_plan_card h5{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    padding: 25px 0 15px 0;
+}
+.pricing_plan_card h6{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.pricing_plan_card p{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.pricing_plan_card_button a{
+    padding: 14px 35px;
+    background: linear-gradient(#9e4efb, #5a0fca);
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    border-radius: 10px;
+    text-shadow: 5px 5px 2px #5813b8;
+    border-bottom: 6px solid #3a0090;
+    position: absolute;
+    bottom: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+    /* transition: 0.4s; */
+}
+.pricing_plan_card_button a:hover{
+    background: linear-gradient(#fe39db, #a90287);
+    text-shadow: 4px 5px 2px #a60084;
+    border-bottom: 6px solid #661355;
+}
+
+
+.pricing_plan_card:hover .package_name{
+    visibility: visible;
+}
+
+
+.pricing_plan_card:hover{
+    scale: 105%;
+}
+
+
+/* ======= Pricing Plan Part Ended ======= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FAQ & Tonarment Result Sheet Part Starts Here  */
+
+#faq_result{
+    padding: 100px 0;
+    background: #150035;
+}
+
+.faq_header h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    line-height: 50px;
+    color: #fcb100;
+    text-shadow: 0px 0px 200px #fe38da;
+    margin-bottom: 20px;
+}
+.faq_part{
+    margin-top: 60px;
+}
+.question_answer{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+/* FAQ's */
+.question_only_one button{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.question_only_one span{
+    padding-left: 271px;
+}
+.answer_only_one p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    line-height: 26px;
+    border: 1px solid #fcb100;
+    padding: 15px;
+}
+.answer_only_one{
+    display: none;
+}
+
+.question_only_two button{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.question_only_two span{
+    padding-left: 183px;
+}
+.answer_only_two p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    line-height: 26px;
+    border: 1px solid #fcb100;
+    padding: 15px;
+}
+.answer_only_two{
+    display: none;
+}
+
+.question_only_three button{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.question_only_three span{
+    padding-left: 319px;
+}
+.answer_only_three p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    line-height: 26px;
+    border: 1px solid #fcb100;
+    padding: 15px;
+}
+.answer_only_three{
+    display: none;
+}
+
+.question_only_four button{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.question_only_four span{
+    padding-left: 319px;
+}
+.answer_only_four p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    line-height: 26px;
+    border: 1px solid #fcb100;
+    padding: 15px;
+}
+.answer_only_four{
+    display: none;
+}
+.show{
+    display: block;
+}
+/* FAQ's */
+
+.countdown_part{
+    margin-bottom: 25px;
+    text-align: right;
+}
+
+.tounarment_part_header h3{
+    font-size: 40px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    line-height: 50px;
+    color: #fcb100;
+    text-shadow: 0px 0px 200px #fe38da;
+    margin-bottom: 20px;
+}
+
+.countdown_title h4{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-top: 55px;
+}
+
+.first{
+    padding: 12px 8px;
+    border: 1px solid #fcb100;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: #fcb100;
+    margin: 25px 10px 0 10px;
+    border-radius: 10px;
+}
+
+.winner_result_list{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+.winner_name{
+    width: 40%;
+}
+.winner_name h5, .earning_amount p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    padding-top: 7px;
+}
+.winner_region{
+    width: 20%;
+    text-align: center;
+}
+.earning_amount{
+    width: 20%;
+}
+.list_start{
+    max-height: 220px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #1f004f #070006;
+    scroll-behavior: smooth;
+}
+
+.list_start::-webkit-scrollbar{
+    width: 10px;
+
+  }
+   
+.list_start::-webkit-scrollbar-track{
+    background-color: #000000;
+}
+   
+.list_start::-webkit-scrollbar-thumb{
+    background: #1f004f;
+    border-radius: 20px;
+}
+
+
+/* FAQ & Tonarment Result Sheet Part Ended */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======Subscribe & Payment Method Part Starts Here====== */
+
+#subscribe_n_pay{
+    padding: 30px 0 20px 0;
+    background: linear-gradient(#9e4efb, #580ec9);
+    border-bottom: 6px solid #3a0090;
+}
+.subscribing_heading{
+    margin-bottom: 20px;
+}
+.subscribing_heading h3{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    text-shadow: 5px 5px 2px #5813b8;
+}
+
+.subscribing_input{
+    display: flex;
+    justify-content: space-between;
+}
+.subscribing_input input{
+    padding: 12px 65px 12px 15px;
+    background: linear-gradient(#8339e5, #601dc5);
+    border: 1px solid #3a0090;
+    width: 100%;
+
+}
+.subscribing_input input::placeholder{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #3a0090;
+}
+
+.subscribing_input input:focus{
+    color: #f1f1f1;
+}
+
+.subscribing_input button{
+    font-size: 18px;
+    background: linear-gradient(#8339e5, #601dc5);
+    color: #3a0090;
+    padding: 11px 15px 10px 15px;
+    border: 1px solid #3a0090;
+    border-left: none !important;
+
+}
+
+.payment_gateway_images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment_gateway_images a{
+    transition: .4s;
+}
+
+.payment_gateway_images a:hover{
+    scale: 115%;
+}
+
+
+/* ======Subscribe & Payment Method Part Ended====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== Footer Part Starts Here ========= */
+
+#footer{
+    padding: 60px 0;
+    background: #0b001b;
+    border-bottom: 2px solid #000000;
+}
+
+.about_jackpot_heading h4{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.about_jackpot_heading p{
+    font-size: 16px;
+    font-weight: 200;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+
+.social_media_links .facebook{
+    display: inline-block;
+}
+.facebook a{
+    background: linear-gradient(#9e4efc, #590fc9);
+    border-bottom: 6px solid #3a0090;
+    padding: 14px 20px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 5px 5px 2px #5813b8;
+    margin-right: 10px;
+}
+.facebook a:hover{
+    background: linear-gradient(#ff39dc, #aa0288);
+    border-bottom: 6px solid #661355;
+    text-shadow: 5px 5px 2px #a60084;
+}
+.twitter a{
+    padding: 14px 17px;
+}
+.google_plus a{
+    padding: 14px 16px;
+}
+.pinterest a{
+    padding: 14px 18px;
+}
+
+/* ==== */
+
+.row_one a, .row_two a{
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    margin-bottom: 25px;
+    opacity: .8;
+}
+
+.sinfo_one, .sinfo_two{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    opacity: .8;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.sinfo_two{
+    margin-top: 105px;
+}
+
+.security_icons img{
+    margin-bottom: 40px;
+}
+
+/* ======== Footer Part Ended ========= */
+
+#copyright_part{
+    padding: 20px;
+    background: #0b001b;
+}
+
+.copyright_text h6{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+
+/* HomePage Done============ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* About Us Page Starts Here======= */
+
+
+/* ====== Banner Part Starts Here ======= */
+
+#about_us_banner{
+    padding: 200px 0 210px 0;
+    background: #150035;
+}
+
+.about_us_banner_headings h4{
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    line-height: 50px;
+    color: #fcb100;
+    text-shadow: 0px 0px 200px #fe38da;
+}
+
+.about_us_banner_headings h6{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    margin-top: 10px;
+    text-shadow: 5px 5px 2px #240053;
+}
+
+.top_position_one{
+    top: -100;
+}
+
+/* ====== Banner Part Ended ======= */
+
+
+
+
+
+
+
+
+
+/* ======== About Part Starts Here ========== */
+
+#about_us_about{
+    padding: 205px 0 60px 0;
+    background: #0b001b;
+}
+
+.about_description p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    line-height: 26px;
+    margin: 80px 0 60px 0;
+}
+
+.video_demo{
+    margin-top: 15px;
+}
+
+.video_demo a{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #a60084;
+}
+
+.video_demo span{
+    padding: 18px 22px;
+    color: #fff;
+    background: linear-gradient(#f938d7, #a90287);
+    border-radius: 50%;
+    margin-right: 15px;
+    border-bottom: 4px solid #601251;
+}
+
+#about_us_gaming_collection{
+    padding: 100px 0;
+    background: #150035;
+}
+
+
+/* ======== About Part Ended ========== */
+
+/* About Us Slider  */
+
+
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+#slick-slide-control00, #slick-slide-control01, #slick-slide-control02{
+    padding: 0px 8px;
+    background: linear-gradient(#984af3, #6015ce);
+    border: none;
+    border-bottom: 2px solid #38008c !important;
+    border-radius: 50%;
+    color: transparent;
+    margin: 5px;
+    transition: .4s;
+}
+
+#slick-slide-control00:hover, #slick-slide-control01:hover, #slick-slide-control02:hover{
+    padding: 3px 10px;
+    background: linear-gradient(#ff39dc, #ae058c);
+    border-bottom: 2px solid #661355;
+}
+
+/* About Us Slider  */
+
+/* About Us Page Ended======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Pricing Page Starts Here=========  */
+
+/* Banner=== */
+.membership_plan_heading_ts h4{
+    text-shadow: 0px 20px 120px #fe38da !important;
+}
+/* Banner=== */
+
+
+/* Pricing Part=== */
+#pricing_plan_for_membership_plan{
+    padding: 250px 0 130px 0;
+    background: #0b001b;
+}
+
+.col_gap_for_pricing_cards{
+    margin-top: 115px;
+}
+/* Pricing Part=== */
+
+
+/* Pricing Page Ended========= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Us Page Starts Here====== */
+
+#contact_us_infos{
+    
+    background: url(../images/contact_us_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contact_us_info_overlay{
+    padding: 260px 0 135px 0;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
+
+
+/* Contact Us Page Ended====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Contact Us Page Starts Here========== */
+
+.infos{
+    display: flex;
+}
+
+.info_icons{
+    display: inline-block;
+    font-size: 42px;
+    color: #fff;
+    padding: 25px 40px;
+    background: linear-gradient(#9e4efc, #580ec9);
+    border-bottom: 6px solid #3a0090;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.info_brief h6{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    line-height: 50px;
+}
+
+.info_brief p{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    line-height: 30px;
+}
+
+.info_icons_two{
+    font-size: 35px;
+    padding: 28px 38px;
+}
+
+.info_icons_three{
+    font-size: 40px;
+    padding: 27px 38px;
+}
+
+/* Contact Us Page Ended======== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Signup Page starts==== */
+
+#signup_gateway{
+    padding: 205px 0 100px 0;
+    background: #0b001b;
+}
+
+
+.registration_heading h4{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    line-height: 30px;
+}
+.registration_heading p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+    line-height: 30px;
+    position: relative;
+    margin: 5px 0 75px 0;
+}
+
+.registration_heading p::before{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: #fff;
+    content: "";
+    border-radius: 5px;
+}
+
+.user_infos_first_row{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.user_infos_first_row input{
+    padding-bottom: 15px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff !important;
+    width: 275px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    padding-right: 25px;
+}
+
+.user_infos_first_row input::placeholder{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+.user_infos_first_row input:focus{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    padding-right: 25px;
+}
+
+.user_infos_first_row .user_info_icon_one{
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    left: 42%;
+    transform: translateX(-42%);
+}
+.user_infos_first_row .user_info_icon_two{
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.user_infos_second_row{
+    position: relative;
+}
+.user_infos_second_row input{
+    margin: 60px 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff !important;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+.user_infos_second_row input::placeholder{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+}
+.user_infos_second_row input:focus{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    padding-right: 25px;
+}
+.user_info_icon_for_second_row{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    color: #fff;
+}
+.for_third_row{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+}
+
+.let_signin h6{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+.let_signin{
+    margin-top: 27px;
+}
+.let_signin a{
+    color: #681cd4;
+    transition: .3s;
+}
+.let_signin a:hover{
+    color: #ff39dc;
+}
+.or_register_with{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.or_register_with h6{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Nunito', sans-serif;
+    color: #fff;
+}
+.register_please{
+    margin-top: 7px;
+}
+/* Signup Page Ended===== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Login Page Starts==== */
+.for_login_page input{
+    margin-top: 30px !important;
+}
+.for_login_page_icon{
+    top: 30px !important;
+}
+.forgot_pass a{
+    color: #fff;
+}
+/* Login Page Ended===== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Error Page Starts Here===== */
+
+#error{
+    padding: 200px 0 100px 0;
+    background: #0b001b;
+}
+
+.error_page_button a{
+    margin-left: 0 !important;
+}
+
+/* Error Page Ended===== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

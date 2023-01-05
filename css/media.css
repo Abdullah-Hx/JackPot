@@ -1,0 +1,1225 @@
+/* // Extra-large devices (desktops, less than 1980px) */
+@media (min-width: 1400px) {
+    /* No Need */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // large devices (desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+    .nav-item{
+        margin: 0 20px;
+    }
+    .nav-link{
+        font-size: 18px;
+    }
+
+    .header_signup_button a{
+        font-size: 17px;
+    }
+    .header_login_button a{
+        font-size: 17px;
+    }
+
+    .gamble_spinning_img{
+        top: 225px;
+        left: 80px;
+        width: 500px;
+    }
+    .triple_seven_part h6{
+        margin-top: 50px;
+    }
+    .triple_seven_part h1{
+        font-size: 300px;
+    }
+
+    .rg_card_overlay h4{
+        top: 40%;
+        transform: translate(-50%, -40%);
+    }
+    .rg_card_overlay_button a{
+        margin-top: 220px;
+    }
+
+    .pricing_plan_card_button a{
+        padding: 14px 30px;
+        font-size: 20px;
+    }
+
+    .question_only_one span{
+        padding-left: 150px;
+    }
+    .question_only_two span{
+        padding-left: 62px;
+    }
+    .question_only_three span{
+        padding-left: 198px;
+    }
+    .question_only_four span{
+        padding-left: 198px;
+    }
+
+    .first{
+        margin: 25px 5px 0 5px;
+    }
+
+    .countdown_title h4{
+        line-height: 22px;
+    }
+    .countdown_part{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .sinfo_two{
+        margin-top: 80px;
+    }
+
+    
+    /* ====== Sign Up ====== */
+
+    .user_infos_first_row input{
+        width: 250px;
+    }
+
+    .or_register_with{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .or_register_with h6{
+        margin-right: 30px;
+    }
+
+    .let_signin h6{
+        line-height: 22px;
+    }
+    .or_register_with h6{
+        line-height: 22px;
+    }
+
+    /* ====== Sign Up Done ====== */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // :-mid-large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .nav-item{
+        margin: 0 5px;
+    }
+    .nav-link{
+        font-size: 17px;
+    }
+    .header_signup_button a{
+        font-size: 16px;
+    }
+    .header_login_button a{
+        font-size: 16px;
+    }
+    .gamble_spinning_img{
+        top: 225px;
+        left: 60px;
+        width: 500px;
+    }
+    .triple_seven_part h6{
+        margin-top: 60px;
+    }
+    .triple_seven_part h1{
+        font-size: 250px;
+    }
+    .triple_seven_part p{
+        font-size: 15px;
+    }
+
+    .cards_below_banner h5{
+        font-size: 44px;
+    }
+    .cards_below_banner h4{
+        font-size: 30px;
+        padding-top: 15px;
+    }
+    .cards_below_banner p{
+        font-size: 15px;
+    }
+
+    .rg_card_overlay h4{
+        top: 35%;
+        transform: translate(-50%, -35%);
+    }
+    .rg_card_overlay_button a{
+        font-size: 18px;
+        margin-top: 160px;
+    }
+
+    .package_name{
+        padding: 16px 0;
+    }
+    .package_name h3{
+        font-size: 18px;
+    }
+    .pricing_plan_card h4{
+        font-size: 30px;
+    }
+    .pricing_plan_card h5{
+        font-size: 46px;
+    }
+    .pricing_plan_card p{
+        font-size: 15px;
+    }
+    .pricing_plan_card:hover{
+        scale: 103%;
+    }
+    .pricing_plan_card_button a{
+        padding: 14px 30px;
+        font-size: 17px;
+    }
+
+
+    .question_only_one button{
+        font-size: 18px;
+    }
+    .question_only_two button{
+        font-size: 18px;
+    }
+    .question_only_three button{
+        font-size: 18px;
+    }
+    .question_only_four button{
+        font-size: 18px;
+    }
+    .question_only_one span{
+        padding-left: 79px;
+    }
+    .question_only_two span{
+        padding-left: 0px;
+    }
+    .question_only_three span{
+        padding-left: 122px;
+    }
+    .question_only_four span{
+        padding-left: 122px;
+    }
+
+    .first{
+        margin: 25px 0 0 0;
+        font-size: 18px;
+    }
+
+    .countdown_title h4{
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .countdown_part{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .payment_gateway_images a{
+        margin-right: 10px;
+    }
+
+    .sinfo_one{
+        margin-top: 0;
+    }
+    .sinfo_two{
+        margin-top: 60px;
+    }
+
+            /* ======= Contact Us ======= */
+
+            .info_brief h6{
+                font-size: 20px;
+                margin-top: 20px;
+            }
+            .info_brief p{
+                font-size: 16px;
+            }
+        
+            .info_icons{
+                margin-top: 30px;
+            }
+        
+            .info_icons_three{
+                padding: 27px 36px;
+            }
+
+            .info_icons_two{
+                font-size: 42px;
+            }
+        
+            /* ======= Contact Us Done ======= */
+
+
+
+
+    /* ====== Sign Up ====== */
+
+    .user_infos_first_row input{
+        width: 200px;
+    }
+
+    .or_register_with{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .or_register_with h6{
+        margin-right: 30px;
+    }
+
+    .let_signin h6{
+        line-height: 22px;
+    }
+    .or_register_with h6{
+        line-height: 22px;
+    }
+
+    /* ====== Sign Up Done ====== */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Regular devices (Phones/Tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px){
+    .navbar-toggler{
+        font-size: 28px;
+        color: #944bff;
+    }
+    .navbar-collapse{
+        background: rgba(0, 0, 0, 0.9);
+        text-align: center;
+        transition: .5s;
+    }
+    .header_buttons{
+        justify-content: center;
+    }
+    .header_signup_button a{
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .header_login_button a{
+        margin-top: 10px;
+    }
+
+    #homepage_banner{
+        padding-bottom: 100px;
+    }
+    .gamble_spinning_img{
+        top: 200px;
+        left: 125px;
+        width: 500px;
+    }
+    .triple_seven_part h6{
+        margin-top: 60px;
+    }
+    .triple_seven_part{
+        margin-top: 550px;
+        text-align: center;
+    }
+    .below_banner_child{
+        position: absolute;
+        top: 0;
+    }
+
+
+    #related_games{
+        padding-top: 900px;
+    }
+    .related_games_card{
+        width: 75%;
+        margin-bottom: 45px !important;
+        margin: 0 auto;
+    }
+    .rg_card_overlay_button a{
+        margin-top: 325px;
+    }
+
+    .free_spin_card{
+        width: 50%;
+        margin-left: 160px;
+    }
+    .free_spin_description{
+        text-align: center;
+    }
+
+    #pricing_plan{
+        padding-bottom: 50px;
+    }
+    .pricing_plan_card{
+        width: 65%;
+        margin: 0 auto;
+        margin-bottom: 100px !important;
+    }
+
+    .question_only_one span{
+        padding-left: 128px;
+    }
+    .question_only_two span{
+        padding-left: 40px;
+    }
+    .question_only_three span{
+        padding-left: 175px;
+    }
+    .question_only_four span{
+        padding-left: 175px;
+    }
+
+    .tounarment_part_header{
+        margin-top: 50px;
+    }
+    .countdown_title h4{
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .countdown_part{
+        text-align: center;
+    }
+    .countdown_part ul{
+        padding-left: 0;
+    }
+    .first{
+        font-size: 24px;
+    }
+
+    .subscribing_input{
+        margin-bottom: 30px;
+    }
+    .payment_gateway_images{
+        justify-content: start;
+    }
+    .payment_gateway_images a{
+        margin-right: 15px;
+    }
+
+    .about_jackpot_heading h4{
+        margin-top: 30px;
+    }
+
+    .security_icons{
+        width: 50%;
+    }
+    .sinfo_one{
+        width: 50%;
+    }
+
+    .security_icons img{
+        margin-bottom: 0;
+    }
+
+    .for_media_mb{
+        margin-bottom: 30px;
+    }
+
+
+
+
+        /* ========= About Us ========== */
+
+        .about_card_img{
+            display: flex;
+            justify-content: center;
+        }
+        .about_card_img img{
+            margin-top: 700px;
+            width: 60% !important;
+        }
+        .video_demo{
+            margin-top: 50px;
+        }
+    
+        .about_description{
+            text-align: center;
+        }
+        .about_button_and_video{
+            text-align: center;
+        }
+
+        .rg_card_overlay_btn_about_us a{
+            margin-top: 200px !important;
+        }
+    
+        /* ========= About Us Done ========== */
+
+
+
+
+    /* ========= Membership Plan ========== */
+
+    .pricing_plan_card_first_pricing{
+        margin-top: 700px;
+    }
+    .col_gap_for_pricing_cards{
+        margin-top: 0;
+    }
+
+    /* ========= Membership Plan Done ========== */
+
+
+
+        /* ======= Contact Us ======= */
+
+        .infos_pp_contact_us{
+            margin-top: 600px;
+        }
+        .info_brief h6{
+            font-size: 20px;
+            margin-top: 15px;
+        }
+        .info_brief p{
+            font-size: 16px;
+        }
+    
+        .info_icons{
+            margin-top: 25px;
+        }
+    
+        .info_icons_three{
+            padding: 27px 36px;
+        }
+    
+        /* ======= Contact Us Done ======= */
+
+
+    
+    /* ====== Sign Up ====== */
+
+    .gateway_banner_img img{
+        margin-top: 600px;
+    }
+    .let_signin h6{
+        margin-bottom: 40px;
+    }
+
+    .user_infos_first_row input{
+        width: 300px;
+    }
+
+    .or_register_with{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .or_register_with h6{
+        margin-right: 30px;
+    }
+
+    .forgot_pass a{
+        margin-bottom: 20px;
+    }
+    /* ====== Sign Up Done ====== */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Small devices (Phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* ====== Homepage ====== */
+    .navbar-toggler{
+        font-size: 28px;
+        color: #944bff;
+    }
+    .navbar-collapse{
+        background: rgba(0, 0, 0, 0.7);
+        transition: .5s;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+
+    .header_buttons{
+        justify-content: center;
+    }
+    .header_signup_button a{
+        margin-left: 0;
+    }
+
+    .header_signup_button a{
+        margin-top: 10px;
+    }
+    .header_login_button a{
+        margin-top: 10px;
+    }
+
+    #homepage_banner{
+        padding-bottom: 100px;
+    }
+    .gamble_spinning_img{
+        top: 175px;
+        left: 90px;
+        width: 400px;
+    }
+    .triple_seven_part{
+        margin-top: 400px;
+        text-align: center;
+    }
+    .below_banner_child{
+        position: absolute;
+        top: 0;
+    }
+
+
+    #related_games{
+        padding-top: 900px;
+    }
+    .related_games_card{
+        width: 75%;
+        margin-bottom: 45px !important;
+        margin: 0 auto;
+    }
+    .rg_card_overlay_button a{
+        margin-top: 250px;
+    }
+
+    .free_spin_card{
+        width: 50%;
+        margin-left: 160px;
+    }
+    .free_spin_description{
+        text-align: center;
+    }
+
+    #pricing_plan{
+        padding-bottom: 50px;
+    }
+    .pricing_plan_card{
+        width: 65%;
+        margin: 0 auto;
+        margin-bottom: 100px !important;
+    }
+    .pricing_plan_card_button a{
+        font-size: 20px;
+    }
+
+    .faq_part{
+        text-align: center;
+    }
+    .question_only_one span{
+        padding-left: 0px;
+    }
+    .question_only_two span{
+        padding-left: 0px;
+    }
+    .question_only_three span{
+        padding-left: 0px;
+    }
+    .question_only_four span{
+        padding-left: 0px;
+    }
+    .question_only_one button{
+        font-size: 18px;
+    }
+    .question_only_two button{
+        font-size: 18px;
+    }
+    .question_only_three button{
+        font-size: 18px;
+    }
+    .question_only_four button{
+        font-size: 18px;
+    }
+
+    .tounarment_part_header{
+        margin-top: 50px;
+    }
+    .countdown_title h4{
+        font-size: 24px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .countdown_part{
+        text-align: center;
+    }
+    .countdown_part ul{
+        padding-left: 0;
+    }
+    .first{
+        font-size: 24px;
+    }
+
+    .subscribing_input{
+        margin-bottom: 30px;
+    }
+    .payment_gateway_images{
+        justify-content: start;
+    }
+    .payment_gateway_images a{
+        margin-right: 15px;
+    }
+
+    .about_jackpot_heading h4{
+        margin-top: 30px;
+    }
+
+    .security_icons{
+        width: 50%;
+    }
+    .sinfo_one{
+        width: 50%;
+    }
+
+    .security_icons img{
+        margin-bottom: 0;
+    }
+
+    .for_media_mb{
+        margin-bottom: 30px;
+    }
+
+    /* ====== Homepage Done ====== */
+
+
+
+
+    /* ========= About Us ========== */
+
+        .about_card_img img{
+            margin-top: 700px;
+        }
+        .video_demo{
+            margin-top: 50px;
+        }
+    
+        .about_description{
+            text-align: center;
+        }
+        .about_button_and_video{
+            text-align: center;
+        }
+    
+    /* ========= About Us Done ========== */
+
+
+
+
+        /* ========= Membership Plan ========== */
+
+        .pricing_plan_card_first_pricing{
+            margin-top: 650px;
+        }
+        .col_gap_for_pricing_cards{
+            margin-top: 0;
+        }
+    
+        /* ========= Membership Plan Done ========== */
+
+
+        /* ======= Contact Us ======= */
+
+        .infos_pp_contact_us{
+            margin-top: 600px;
+        }
+        .info_brief h6{
+            font-size: 20px;
+            margin-top: 15px;
+        }
+        .info_brief p{
+            font-size: 16px;
+        }
+    
+        .info_icons{
+            margin-top: 25px;
+        }
+    
+        .info_icons_three{
+            padding: 27px 36px;
+        }
+    
+        /* ======= Contact Us Done ======= */
+
+
+
+    /* ====== Sign Up ====== */
+
+    .gateway_banner_img img{
+        margin-top: 600px;
+    }
+    .let_signin h6{
+        margin-bottom: 40px;
+    }
+
+    .user_infos_first_row input{
+        width: 235px;
+    }
+
+    .or_register_with{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .or_register_with h6{
+        margin-right: 30px;
+    }
+
+    .forgot_pass a{
+        margin-bottom: 20px;
+    }
+
+    /* ====== Sign Up Done ====== */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // Extra-Small devices (Mini Phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575.98px){
+
+    /* ======= Homepage ====== */
+    .navbar-toggler{
+        margin-top: 40px;
+        font-size: 24px;
+        color: #944bff;
+    }
+    .navbar-collapse{
+        background: rgba(0, 0, 0, 0.7);
+        transition: .5s;
+    }
+    .navbar-brand img{
+        width: 200px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .header_buttons{
+        justify-content: center;
+    }
+    .header_signup_button a{
+        margin-left: 0;
+    }
+    .header_signup_button a{
+        margin-top: 10px;
+    }
+    .header_login_button a{
+        margin-top: 10px;
+    }
+
+    #homepage_banner{
+        padding-bottom: 100px;
+    }
+    .gamble_spinning_img{
+        top: 175px;
+        left: 25px;
+        width: 275px;
+    }
+    .triple_seven_part{
+        margin-top: 275px;
+        text-align: center;
+    }
+    .triple_seven_part h1{
+        font-size: 200px;
+    }
+    .below_banner_child{
+        position: absolute;
+        top: 0;
+    }
+    .cards_below_banner h5{
+        font-size: 46px;
+    }
+    .cards_below_banner h4{
+        font-size: 28px;
+        padding-top: 15px;
+    }
+    .cards_below_banner p{
+        font-size: 15px;
+    }
+
+
+    #related_games{
+        padding-top: 900px;
+    }
+    .related_games_card{
+        width: 75%;
+        margin-bottom: 30px !important;
+        margin: 0 auto;
+    }
+    .rg_card_overlay_button a{
+        margin-top: 140px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .rg_card_overlay h4{
+        font-size: 20px;
+    }
+
+    .free_spin_card{
+        width: 50%;
+        margin-left: 75px;
+    }
+    .free_spin_description{
+        text-align: center;
+    }
+
+    #pricing_plan{
+        padding-bottom: 50px;
+    }
+    .pricing_plan_card{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 100px !important;
+    }
+    .pricing_plan_card h4{
+        margin-top: 20px;
+    }
+    .pricing_plan_card_button a{
+        font-size: 16px;
+        padding: 14px 25px;
+    }
+
+    .question_only_one span{
+        padding-left: 0px;
+    }
+    .question_only_two span{
+        padding-left: 0px;
+    }
+    .question_only_three span{
+        padding-left: 0px;
+    }
+    .question_only_four span{
+        padding-left: 0px;
+    }
+    .question_only_one button{
+        font-size: 16px;
+    }
+    .question_only_two button{
+        font-size: 16px;
+    }
+    .question_only_three button{
+        font-size: 16px;
+    }
+    .question_only_four button{
+        font-size: 16px;
+    }
+    .answer_only_one p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .answer_only_two p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .answer_only_three p{
+        font-size: 16px;
+        text-align: center;
+    }
+    .answer_only_four p{
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .tounarment_part_header{
+        margin-top: 50px;
+    }
+    .countdown_title h4{
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .countdown_part{
+        text-align: center;
+    }
+    .countdown_part ul{
+        padding-left: 0;
+    }
+    .first{
+        font-size: 16px;
+    }
+    .winner_name{
+        width: 50%;
+    }
+
+    .subscribing_input{
+        margin-bottom: 30px;
+    }
+    .payment_gateway_images{
+        justify-content: start;
+    }
+    .payment_gateway_images a{
+        margin-right: 15px;
+        width: 45px;
+    }
+
+    .about_jackpot_heading h4{
+        margin-top: 30px;
+    }
+
+    .security_icons{
+        width: 50%;
+    }
+    .sinfo_one{
+        width: 50%;
+    }
+
+    .security_icons img{
+        margin-bottom: 0;
+    }
+
+    .for_media_mb{
+        margin-bottom: 30px;
+    }
+
+    /* ======= Homepage Done ====== */
+
+
+
+
+
+
+    /* ========= About Us ========== */
+
+    .about_card_img img{
+        margin-top: 700px;
+    }
+    .video_demo{
+        margin-top: 50px;
+    }
+
+    .about_description{
+        text-align: center;
+    }
+    .about_button_and_video{
+        text-align: center;
+    }
+
+    /* ========= About Us Done ========== */
+
+
+
+
+
+    /* ========= Membership Plan ========== */
+
+    .pricing_plan_card_first_pricing{
+        margin-top: 600px;
+    }
+    .col_gap_for_pricing_cards{
+        margin-top: 0;
+    }
+
+    /* ========= Membership Plan Done ========== */
+
+
+
+
+
+
+    /* ======= Contact Us ======= */
+
+    .infos_pp_contact_us{
+        margin-top: 600px;
+    }
+    .info_brief h6{
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .info_brief p{
+        font-size: 16px;
+    }
+
+    .info_icons{
+        margin-top: 15px;
+    }
+
+    .info_icons_three{
+        padding: 27px 36px;
+    }
+
+    /* ======= Contact Us Done ======= */
+
+
+    /* ====== Sign Up ====== */
+
+    .gateway_banner_img img{
+        margin-top: 600px;
+    }
+    .let_signin h6{
+        margin-bottom: 40px;
+    }
+
+    .user_infos_first_row input{
+        width: 130px;
+    }
+
+    .for_login_page input{
+        margin-top: 60px !important;
+    }
+    .for_login_page_icon{
+        top: 60px !important;
+    }
+    .forgot_pass a{
+        margin-bottom: 20px;
+    }
+    /* ====== Sign Up Done ====== */
+
+
+}
